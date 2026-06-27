@@ -1,0 +1,264 @@
+body{
+    background-color:rgb(239, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.first-h1{
+    font-style: normal;
+    background-color: rgb(101, 128, 119);
+    padding-bottom: 7px;
+    padding-top:7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.back{
+    background-color: #ccc;
+}
+header{
+    background-color: rgb(182, 206, 198);
+    border-radius: 20px;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    font-size: 30px
+}
+.links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin: 0;
+}
+.links li a {
+    color: rgb(117, 106, 245);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 40px;
+}
+.links li a:hover {
+    color: rgb(128, 128, 229);
+    background: rgb(56, 201, 78);
+}
+/* ================= FORM CONTAINER STYLING ================= */
+
+/* Targets the <form> inside the .sign-up container */
+.fill form {
+    background-color: #f9f9f9; /* Light grey background for better visual separation */
+    padding: 20px; /* Adds inner spacing so content doesn't touch edges */
+    border-radius: 10px; /* Rounds corners for a softer look */
+    max-width: 400px; /* Limits form width for readability */
+    margin: auto; /* Centers the form horizontally on the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Creates subtle shadow for depth effect */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks form elements vertically */
+    gap: 15px; /* Adds space between form elements */
+}
+
+/* ================= INPUT FIELD STYLING ================= */
+
+/* Styles all text, email, telephone, and password inputs in the form */
+.fill input[type="text"],
+.fill input[type="email"],
+.fill input[type="tel"],
+.fill input[type="password"],
+.fill input[type="date"] {
+    padding: 12px; /* Adds space inside the input field for comfort */
+    border: 1px solid #ccc; /* Light grey border for clear boundaries */
+    border-radius: 5x; /* Slight rounding of corners for a cleaner look */
+    font-size: 16px; /* Larger font for better readability */
+}
+
+/* ================= PLACEHOLDER TEXT STYLING ================= */
+
+/* Styles the placeholder text inside inputs */
+.fill input::placeholder {
+    color: #aaa; /* Light grey color to differentiate placeholder text from user input */
+}
+
+/* ================= CHECKBOX STYLING ================= */
+
+/* Styles the checkbox inside the form */
+.fill input[type="checkbox"] {
+    margin-right: 10px; /* Adds space between the checkbox and its label */
+}
+
+/* ================= LABEL STYLING ================= */
+
+/* Styles all <label> elements in the form */
+.fill label {
+    font-size: 14px; /* Slightly smaller font to keep labels subtle */
+    color: #333; /* Dark grey for readability without harshness */
+}
+ select {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #004466;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  select:hover {
+    border-color: #0077aa;
+    background-color: #f0f8ff;
+  }
+
+  select:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 6px rgba(0, 170, 255, 0.5);
+  }
+
+/*----buttons------*/
+.button{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width: 80px;
+}
+.button:hover{
+    background-color: cadetblue;
+    color:white;
+}
+.remember{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width:190px;
+}
+.remember:hover{
+    background-color: cadetblue;
+    color:white;
+}
+section{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    margin-top:7px;
+    padding: 10px;
+
+}
+section p{
+    font-size: 20px;
+}
+.more{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width:190px;
+
+}
+.more:hover{
+    background-color: rgb(130, 143, 203);
+    color:white;
+}
+.view{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width:190px;
+}
+.view:hover{
+    background-color: rgb(130, 143, 203);
+    color:white;
+}
+.book{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width:190px;
+}
+.book:hover{
+    background-color: rgb(130, 143, 203);
+    color:white;
+}
+.request-button{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:7px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-decoration: solid;
+    border-radius: 10px;
+    font-size: 19px;
+    max-width:190px;
+}
+.request-button:hover{
+    background-color: rgb(130, 143, 203);
+    color:white;
+}
+img{
+    width: 350px;
+    height: 450px;
+    border-radius: 35px;
+}
+.direct-contact p{
+    font-weight: bolder;
+
+}
+.follow ul li{
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+
+footer{
+    background-color: #aaa;
+    width: 1020px;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
